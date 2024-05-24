@@ -1,0 +1,36 @@
+{
+  "exterior": {
+    "title": "Exterior",
+    "description": "Selecione os itens em perfeito estado no exterior do veículo",
+    "items": [
+      { "id": "1", "label": "Parábrisa" },
+      { "id": "2", "label": "Lataria Capô" },
+      { "id": "3", "label": "Lataria Lateral" },
+      { "id": "4", "label": "Lataria Porta-Malas" },
+      { "id": "5", "label": "Lataria Superior" },
+      { "id": "6", "label": "Faróis Dianteiros" },
+      { "id": "7", "label": "Faróis Traseiros" },
+      { "id": "8", "label": "Luzes de ré" },
+      { "id": "9", "label": "Setas" }
+    ]
+  },
+  "internal": {
+    "title": "Interior",
+    "description": "Selecione os itens em perfeito estado no interior do veículo",
+    "items": [
+      { "id": "1", "label": "Bancos Dianteiros" },
+      { "id": "2", "label": "Bancos Traseiros" },
+      { "id": "3", "label": "Vidros Dianteiros" },
+      { "id": "4", "label": "Vidros Traseiros" }
+    ]
+  },
+  "trunk": {
+    "title": "Porta-malas",
+    "description": "Selecione os itens em perfeito estado no porta-malas do veículo",
+    "items": [
+      { "id": "1", "label": "Triângulo" },
+      { "id": "2", "label": "Chave de Rodas" },
+      { "id": "3", "label": "Macaco Hidráulico" }
+    ]
+  }
+}
