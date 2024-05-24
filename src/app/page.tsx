@@ -21,7 +21,7 @@ import jsonData from "@/data/items.json";
 import { useState } from "react";
 
 interface Item {
-  id: number;
+  id: string;
   label: string;
 }
 
