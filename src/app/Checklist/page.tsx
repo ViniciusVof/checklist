@@ -40,7 +40,7 @@ const data: Data = jsonData;
 const FormSchema = z.object({
   items: z.array(z.string()),
 });
-export default function Home() {
+export default function Checklist() {
   const [step, setStep] = useState<number>(0);
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
@@ -118,9 +118,6 @@ export default function Home() {
               </FormItem>
             )}
           />
-          <p>
-            Passo {step + 1} de {Object.keys(data).length}
-          </p>
           <Button type="submit">
             {step - 1 === Object.keys(data).length ? "Enviar" : "Próximo Passo"}
           </Button>
